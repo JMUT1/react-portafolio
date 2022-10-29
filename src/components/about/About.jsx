@@ -10,28 +10,31 @@ const About = () => {
     <section id="about">
       <h5>Get to Know</h5>
       <h2>About Me</h2>
-      <div className="container about_container">
-        <div className="about__me-image">
-          <img src={ME} alt="" />
+
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-image">
+            <img src={ME} alt="" />
+          </div>
         </div>
 
         <div className="about__content">
           <div className="about__cards">
             {/* CARD 1 */}
             <article className="about__card">
-              <FaAward />
+              <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>2+ Year Working </small>
             </article>
             {/* CARD 2 */}
             <article className="about__card">
-              <FiUsers />
+              <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>200 + Worldwide </small>
             </article>
             {/* CARD 3 */}
             <article className="about__card">
-              <BsFolderCheck />
+              <BsFolderCheck className="about__icon" />
               <h5>Projects</h5>
               <small>80+ complet projects </small>
             </article>
@@ -43,7 +46,6 @@ const About = () => {
             labore perferendis!
           </p>
           <a href="#contact" className="btn btn-primary">
-            {" "}
             Let´s Talk
           </a>
         </div>
