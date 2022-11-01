@@ -14,38 +14,92 @@ const Experience = () => {
           {/* CONTENEDOR DONDE SE VA TRABAJAR CON LOS ARTICULOS INDIVIDUALES */}
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className="text-ligth">Experienced</small>
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>HTML</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>CSS</h4>
-              <small className="text-ligth">Intermediate</small>
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>CSS</h4>
+                <small className="text-ligth">Intermediate</small>
+              </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>JavaScript</h4>
-              <small className="text-ligth">Experienced</small>
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>Bootstrap</h4>
-              <small className="text-ligth">Experienced</small>
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                {" "}
+                <h4>Bootstrap</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>React</h4>
-              <small className="text-ligth">Experienced</small>
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>React</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
             </article>
           </div>
         </div>
         {/* BACKEND CONTENEDORES */}
-        <div className="experience__backend"></div>
+        <div className="experience__backend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>NODE JS</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>PYTHON</h4>
+                <small className="text-ligth">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>PHP</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>MYSQL</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>MONGO DB</h4>
+                <small className="text-ligth">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   );
